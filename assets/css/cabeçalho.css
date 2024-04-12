@@ -1,0 +1,40 @@
+.cabeçalho {
+    height: 56px;
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 145px;
+}
+
+.input__busca {
+    width: 752px;
+    height: 56px;
+    background-color: var(--color-bg-input);
+    border: none;
+    border-radius: 8px;
+    padding: 0 14px;
+    color: var(--color-font-white);
+    font-size: 1rem;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+}
+
+.usuario .usuario__foto {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.usuario__nome {
+    color: var(--color-font-white);
+}
