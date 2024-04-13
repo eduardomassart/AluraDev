@@ -1,6 +1,8 @@
 :root {
     --color-bg-blue-dark: #051D3B;
     --color-bg-input: rgba(255, 255, 255, 0.16);
+    --color-bg-blue-medium: rgba(80, 129, 251, 0.16);
+    --color-bg-blue-light: rgba(80, 129, 251, 1);
 
     --color-font-white: rgba(255, 255, 255, 1);
 
@@ -10,6 +12,7 @@
 
 * {
     font-family: var(--font-text);
+    font-weight: 400;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
