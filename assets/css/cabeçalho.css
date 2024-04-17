@@ -10,9 +10,8 @@
     width: 145px;
 }
 
-.input__busca {
-    width: 752px;
-    height: 56px;
+/* Classe compartilhada com todos inputs */
+.input {
     background-color: var(--color-bg-input);
     border: none;
     border-radius: 8px;
@@ -20,6 +19,16 @@
     color: var(--color-font-white);
     font-size: 1rem;
 }
+
+.input::placeholder {
+    color: var(--color-font-less-white);
+}
+
+.input__busca {
+    width: 752px;
+    height: 56px;
+}
+
 
 .usuario {
     display: flex;

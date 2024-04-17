@@ -1,9 +1,7 @@
-.menu {
+.menu__navegacao {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin: 40px 32px;
-    width: 189px;
 }
 
 .menu__titulo {

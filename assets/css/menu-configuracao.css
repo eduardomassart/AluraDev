@@ -1,0 +1,20 @@
+.menu__configuracao {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__configuracao-dados {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.input__projeto-nome {
+    width: 272px;
+    height: 56px;
+}
+
+.input__projeto-descricao {
+    width: 272px;
+    height: 80px;
+}

@@ -7,7 +7,8 @@
     <title>AluraDev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/css/cabeçalho.css">
-    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu-navegacao.css">
+    <link rel="stylesheet" href="./assets/css/menu-configuracao.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -17,14 +18,14 @@
 <body>
     <header class="cabeçalho">
         <img class="logo" src="./assets/img/logo-plataforma.png" alt>
-        <input class="input__busca" type="text" placeholder="Busque por algo">
+        <input class="input input__busca" type="text" placeholder="Busque por algo">
         <div class="usuario">
             <img class="usuario__foto" src="./assets/img/foto-usuario.jpeg" alt="foto do usuário logado">
             <p class="usuario__nome">Harry</p>
         </div>
     </header>
-    <main>
-        <nav class="menu">
+    <main class="conteudo">
+        <nav class="menu__navegacao">
             <h2 class="menu__titulo">MENU</h2>
             <a href="#" class="menu__item">
                 <div class="menu__item-div active">
@@ -39,6 +40,13 @@
                 <p>Comunidade</p>
             </a>
         </nav>
+        <section class="menu__configuracao">
+            <section class="menu__configuracao-dados">
+                <h2 class="menu__titulo">SEU PROJETO</h2>
+                <input class="input input__projeto-nome" type="text" placeholder="Nome do seu projeto">
+                <input class="input input__projeto-descricao" type="text" placeholder="Nome do seu projeto">
+            </section>
+        </section>
     </main>
 </body>
 

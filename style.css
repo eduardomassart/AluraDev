@@ -5,6 +5,7 @@
     --color-bg-blue-light: rgba(80, 129, 251, 1);
 
     --color-font-white: rgba(255, 255, 255, 1);
+    --color-font-less-white: rgba(255, 255, 255, 0.5);
 
     --font-text: "Inter", sans-serif;
     --font-code: "Roboto Mono", monospace;
@@ -21,3 +22,9 @@
 body {
     background-color: var(--color-bg-blue-dark);
 }
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 32px;
+} 
