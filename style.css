@@ -3,6 +3,7 @@
     --color-bg-input: rgba(255, 255, 255, 0.16);
     --color-bg-blue-medium: rgba(80, 129, 251, 0.16);
     --color-bg-blue-light: rgba(80, 129, 251, 1);
+    --color-bg-cyan: rgb(107, 209, 255);
 
     --color-font-white: rgba(255, 255, 255, 1);
     --color-font-less-white: rgba(255, 255, 255, 0.5);

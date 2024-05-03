@@ -3,13 +3,14 @@
     flex-direction: column;
 }
 
-.menu__configuracao-dados {
+.menu__configuracao-dados, .menu__configuracao-personalizacao{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    margin-bottom: 32px;
 }
 
-.input__projeto-nome {
+.input__projeto-nome, .input__projeto-linguagem, .input__projeto-highlight-color, .menu__configuracao-submeter {
     width: 272px;
     height: 56px;
 }
@@ -17,4 +18,24 @@
 .input__projeto-descricao {
     width: 272px;
     height: 80px;
+    padding-bottom: 25px;
+}
+
+.input__projeto-linguagem {
+    color: var(--color-font-less-white);
+    cursor: pointer;
+}
+
+.input__projeto-highlight-color {
+    padding: 2px;
+    background-color: var(--color-bg-blue-dark);
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+.menu__configuracao-submeter {
+    background-color: var(--color-bg-blue-light);
+    color: var(--color-bg-blue-dark);
+    font-weight: 400;
+    cursor: pointer;
 }
