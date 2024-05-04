@@ -1,0 +1,73 @@
+.secao__codigo {
+    width: 752px;
+    height: 366px;
+    gap: 32px;
+    border-radius: 8px;
+    padding: 32px;
+    background-color: var(--color-bg-cyan);
+    margin-bottom: 32px;
+}
+
+.codigo {
+    background-color: black;
+    width: 688px;
+    height: 302px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.circulos {
+    width: 52px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.circulo {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.circulo-vermelho {
+    background-color: rgba(255, 95, 86, 1);
+}
+
+.circulo-amarelo {
+    background-color: rgba(255, 189, 46, 1);
+}
+
+.circulo-verde {
+    background-color: rgba(39, 201, 63, 1);
+}
+
+.coding__area {
+    width: 656px;
+    height: 234px;
+    font-family: var(--font-code);
+    font-size: 14px;
+    line-height: 18.46px;
+    text-align: left;
+    background-color: black;
+    border: none;
+    color: var(--color-font-white);
+    resize: none;
+}
+
+.coding__area:focus {
+    outline: 0;
+}
+
+.syntax-highlight {
+    width: 752px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: var(--color-bg-blue-medium);
+    color: var(--color-font-white);
+}
