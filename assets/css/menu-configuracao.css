@@ -39,3 +39,9 @@
     font-weight: 400;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1300px) {
+    .input__projeto-nome, .input__projeto-linguagem, .input__projeto-highlight-color, .menu__configuracao-submeter, .input__projeto-descricao {
+        width: 236px;
+    }
+}

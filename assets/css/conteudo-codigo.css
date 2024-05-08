@@ -1,5 +1,10 @@
+.conteudo__codigo {
+    width: 60%;
+    text-align: center;
+}
+
 .secao__codigo {
-    width: 752px;
+    width: 100%;
     height: 366px;
     gap: 32px;
     border-radius: 8px;
@@ -10,7 +15,7 @@
 
 .codigo {
     background-color: black;
-    width: 688px;
+    width: 100%;
     height: 302px;
     border-radius: 8px;
     padding: 16px;
@@ -46,7 +51,7 @@
 }
 
 .coding__area {
-    width: 656px;
+    width: 100%;
     height: 234px;
     font-family: var(--font-code);
     font-size: 14px;
@@ -63,11 +68,27 @@
 }
 
 .syntax-highlight {
-    width: 752px;
+    width: 100%;
     height: 56px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     background-color: var(--color-bg-blue-medium);
     color: var(--color-font-white);
+}
+
+@media screen and (max-width: 1150px) {
+    .conteudo__codigo {
+        width: 50%;
+    }
+
+    .syntax-highlight {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .conteudo__codigo {
+        width: 60%;
+    }
 }

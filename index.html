@@ -18,6 +18,24 @@
 
 <body>
     <header class="cabeçalho">
+        <input type="checkbox" id="menu" class="input__menu-hamburguer" readonly>
+        <label for="menu" class="input__label">
+            <span class="cabeçalho__menu-hamburguer"></span>
+        </label>
+        <ul class="menu__hamburguer-navegacao">
+                <a href="#" class="menu__item item__hamburguer">
+                    <div class="menu__item-div active">
+                        <img class="menu__item-img" src="./assets/img/Vector_codigo.png" alt="editor de código">
+                    </div>
+                    <p>Editor de código</p>
+                </a>
+                <a href="#" class="menu__item item__hamburguer">
+                    <div class="menu__item-div">
+                        <img class="menu__item-img" src="./assets/img/Vector_comunidade.png" alt="editor de código">
+                    </div>
+                    <p>Comunidade</p>
+                </a>
+        </ul>
         <img class="logo" src="./assets/img/logo-plataforma.png" alt>
         <input class="input input__busca" type="text" placeholder="Busque por algo">
         <div class="usuario">
