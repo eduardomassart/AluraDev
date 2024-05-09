@@ -35,3 +35,10 @@ body {
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .conteudo {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+}
