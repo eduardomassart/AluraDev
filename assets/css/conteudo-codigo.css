@@ -1,10 +1,5 @@
-.conteudo__codigo {
-    width: 60%;
-    text-align: center;
-}
-
 .secao__codigo {
-    width: 100%;
+    width: 752px;
     height: 366px;
     gap: 32px;
     border-radius: 8px;
@@ -15,7 +10,7 @@
 
 .codigo {
     background-color: black;
-    width: 100%;
+    width: 688px;
     height: 302px;
     border-radius: 8px;
     padding: 16px;
@@ -55,6 +50,11 @@
 }
 
 .coding__area {
+<<<<<<< HEAD
+=======
+    width: 656px;
+    height: 234px;
+>>>>>>> parent of 390d629 (Início de aplicação da responsividade a página e criação de um menu hamburguer)
     font-family: var(--font-code);
     color: var(--color-font-white);
     font-size: 14px;
@@ -65,27 +65,11 @@
 }
 
 .syntax-highlight {
-    width: 100%;
+    width: 752px;
     height: 56px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     background-color: var(--color-bg-blue-medium);
     color: var(--color-font-white);
-}
-
-@media screen and (max-width: 1150px) {
-    .conteudo__codigo {
-        width: 50%;
-    }
-
-    .syntax-highlight {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .conteudo__codigo {
-        width: 60%;
-    }
 }

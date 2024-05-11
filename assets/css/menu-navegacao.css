@@ -38,21 +38,3 @@
 .active {
     background-color: var(--color-bg-blue-light);
 }
-
-@media screen and (max-width: 1300px) {
-    .menu__item {
-        column-gap: 8px;
-    }
-    .menu__item-div {
-        width: 32px;
-        height: 32px;
-        border-radius: 12px;
-    }
-}
-
-
-@media screen and (max-width: 950px) {
-    .menu__navegacao {
-        display: none;
-    }
-}

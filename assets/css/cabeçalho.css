@@ -1,39 +1,3 @@
-.input__menu-hamburguer {
-    position: absolute;
-    left: -9999px;
-}
-
-.cabeçalho__menu-hamburguer {
-    width: 48px;
-    height: 48px;
-    background-image: url(../img/menu-fechado.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 2px;
-    border-radius: 50%;
-    display: none;
-}
-
-.menu__hamburguer-navegacao {
-    display: none;
-    position: absolute;
-    width: 240px;
-    top: 21%;
-    left: 4px;
-    border-radius: 0 0 8px 8px;
-    border: 1px solid white;
-    border-top: none;
-    background-color: var(--color-bg-blue-dark);
-}
-
-.item__hamburguer {
-    padding-left: 36px;
-}
-
-.input__menu-hamburguer:checked~.input__label>.cabeçalho__menu-hamburguer {
-    background-color: var(--color-bg-input);
-}
-
 .cabeçalho {
     height: 56px;
     margin: 32px;
@@ -44,7 +8,6 @@
 
 .logo {
     width: 145px;
-    margin-right: 32px;
 }
 
 /* Classe compartilhada com todos inputs */
@@ -64,7 +27,6 @@
 .input__busca {
     width: 752px;
     height: 56px;
-    margin-right: 32px;
 }
 
 
@@ -84,14 +46,4 @@
 
 .usuario__nome {
     color: var(--color-font-white);
-}
-
-@media screen and (max-width: 950px) {
-    .cabeçalho__menu-hamburguer {
-        display: block;
-    }
-
-    .input__menu-hamburguer:checked~.menu__hamburguer-navegacao {
-        display: block;
-    }
 }

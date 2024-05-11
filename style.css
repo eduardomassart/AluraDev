@@ -29,9 +29,3 @@ body {
     justify-content: space-between;
     margin: 40px 32px;
 } 
-
-@media screen and (max-width: 950px) {
-    .conteudo {
-        justify-content: space-around;
-    }
-}
