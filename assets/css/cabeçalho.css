@@ -95,29 +95,3 @@
         display: block;
     }
 }
-
-@media screen and (max-width: 700px) {
-    .logo {
-        margin-right: 1%;
-    }
-
-    .input__busca {
-        width: 40%;
-        margin-right: 1%;
-    }
-    
-    .input::placeholder {
-        white-space: normal;
-    }
-    
-    .usuario__nome {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .input__busca {
-        display: none;
-    }
-}
-

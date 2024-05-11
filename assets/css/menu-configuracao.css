@@ -15,12 +15,6 @@
     height: 56px;
 }
 
-.menu__titulo {
-    color: var(--color-font-white);
-    font-size: 12px;
-    letter-spacing: 0.4rem;
-}
-
 .input__projeto-descricao {
     width: 272px;
     height: 80px;
@@ -49,75 +43,5 @@
 @media screen and (max-width: 1300px) {
     .input__projeto-nome, .input__projeto-linguagem, .input__projeto-highlight-color, .menu__configuracao-submeter, .input__projeto-descricao {
         width: 236px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .menu__configuracao {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 10px;
-        margin-bottom: 2rem;
-    }
-
-    .menu__configuracao-dados {
-        width: 40%;
-        align-items: center;
-        margin: 0;
-    }
-    
-    .menu__configuracao-personalizacao {
-        width: 40%;
-        align-items: center;
-        margin: 0;
-    }
-
-    .input__projeto-highlight-color {
-        height: 80px;
-    }
-
-    .input__projeto-nome, .input__projeto-linguagem, .input__projeto-descricao, 
-    .input__projeto-highlight-color {
-        width: 100%;
-    }
-
-    .menu__configuracao-submeter {
-        position: absolute;
-        right: 64px;
-        top: 742px;
-        width: 150px;
-        height: 56px;
-        font-weight: 600;
-    }
-}
-
-@media screen and (max-width: 530px) {
-    .menu__titulo {
-        letter-spacing: 0.1rem;
-    }
-
-    .input__projeto-nome {
-        padding-bottom: 18px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .input {
-        font-size: 0.8rem;
-    }
-
-    .menu__configuracao-submeter {
-        font-size: 1rem;
-    }
-
-    .input__projeto-nome {
-        padding-bottom: 18px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .menu__configuracao-submeter {
-        right: 32px;
     }
 }

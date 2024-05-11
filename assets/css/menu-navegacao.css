@@ -4,6 +4,12 @@
     gap: 16px;
 }
 
+.menu__titulo {
+    color: var(--color-font-white);
+    font-size: 12px;
+    letter-spacing: 0.4rem;
+}
+
 .menu__item {
     height: 48px;
     display: flex;
