@@ -27,6 +27,7 @@
 }
 
 .input__projeto-highlight-color {
+    border-radius: 8px;
     padding: 2px;
     background-color: var(--color-bg-blue-dark);
     border: 1px solid whitesmoke;
@@ -34,8 +35,18 @@
 }
 
 .menu__configuracao-submeter {
+    border: none;
+    border-radius: 8px;
+    padding: 0 14px;
+    color: var(--color-font-white);
+    font-size: 1rem;
     background-color: var(--color-bg-blue-light);
     color: var(--color-bg-blue-dark);
     font-weight: 400;
     cursor: pointer;
+}
+
+.menu__configuracao-submeter:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-button-filled-hover);
 }

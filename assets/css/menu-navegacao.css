@@ -27,7 +27,16 @@
     justify-content: center;
     background-color: var(--color-bg-blue-medium);
     border-radius: 16px;
+}
 
+.menu__item:hover > .menu__item-div {
+    transition: 0.5s;
+    background-color: var(--color-bg-button-unable-hover);
+}
+
+.menu__item:hover > .active {
+    transition: 0.5s;
+    background-color: var(--color-bg-button-filled-hover);
 }
 
 .menu__item-img {

@@ -24,6 +24,11 @@
     color: var(--color-font-less-white);
 }
 
+.input:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-input-hover);
+}
+
 .input__busca {
     width: 752px;
     height: 56px;
@@ -31,11 +36,19 @@
 
 
 .usuario {
+    height: 56px;
+    width: 106px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
     padding: 12px;
+    border-radius: 8px;
+}
+
+.usuario:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-white-button-hover);
 }
 
 .usuario .usuario__foto {

@@ -1,13 +1,30 @@
 :root {
+    /* cores principais */
     --color-bg-blue-dark: #051D3B;
-    --color-bg-input: rgba(255, 255, 255, 0.16);
-    --color-bg-blue-medium: rgba(80, 129, 251, 0.16);
+    --color-bg-blue-medium: rgba(80, 129, 251, 0.08);
     --color-bg-blue-light: rgba(80, 129, 251, 1);
     --color-bg-cyan: rgb(107, 209, 255);
-
+    
+    /* cores de inputs */
+    --color-bg-input: rgba(255, 255, 255, 0.16);
+    --color-bg-input-hover: rgba(255, 255, 255, 0.24);
+    
+    /* cores botões claros (ativos) */
+    --color-bg-button-filled-hover: rgba(123, 164, 252, 1);
+    --color-bg-button-filled-focus: rgba(150, 185, 253, 1);
+    --color-border-bt-filled-pressed: rgba(80, 129, 251, 0.72);
+    
+    /* cores botões escuros (inativos) */
+    --color-bg-button-unable-hover: rgba(80, 129, 251, 0.16);
+    --color-bg-button-unable-focus: rgba(80, 129, 251, 0.24);
+    --color-border-bt-unable-pressed: rgba(80, 129, 251, 0.24);
+    
+    /* cores de fontes e detalhes brancos */
     --color-font-white: rgba(255, 255, 255, 1);
+    --color-bg-white-button-hover: rgba(255, 255, 255, 0.08);
     --color-font-less-white: rgba(255, 255, 255, 0.5);
 
+    /* fontes do projeto */
     --font-text: "Inter", sans-serif;
     --font-code: "Roboto Mono", monospace;
 }
