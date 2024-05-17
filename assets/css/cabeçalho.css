@@ -60,3 +60,27 @@
 .usuario__nome {
     color: var(--color-font-white);
 }
+
+.menu__hamburguer {
+    display: none;
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/Menu-hambuguer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .input__busca{
+        width: 431px;
+    }
+
+    .usuario {
+        display: none;
+    }
+
+    .menu__hamburguer {
+        display: block;
+    }
+}

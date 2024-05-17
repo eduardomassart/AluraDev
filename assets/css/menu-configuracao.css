@@ -3,14 +3,18 @@
     flex-direction: column;
 }
 
-.menu__configuracao-dados, .menu__configuracao-personalizacao{
+.menu__configuracao-dados,
+.menu__configuracao-personalizacao {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
     margin-bottom: 32px;
 }
 
-.input__projeto-nome, .input__projeto-linguagem, .input__projeto-highlight-color, .menu__configuracao-submeter {
+.input__projeto-nome,
+.input__projeto-linguagem,
+.input__projeto-highlight-color,
+.menu__configuracao-submeter {
     width: 272px;
     height: 56px;
 }
@@ -49,4 +53,31 @@
 .menu__configuracao-submeter:hover {
     transition: 0.5s;
     background-color: var(--color-bg-button-filled-hover);
+}
+
+@media screen and (max-width: 768px) {
+
+    .input__projeto-nome,
+    .input__projeto-descricao,
+    .menu__configuracao-submeter {
+        width: 100%;
+    }
+
+    .menu__configuracao-personalizacao {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .input__projeto-linguagem {
+        width: 48%;
+    }
+
+    .input__projeto-highlight-color {
+        width: 47%;
+    }
+
+    .menu__configuracao-personalizacao>.menu__titulo {
+        width: 100%;
+    }
 }

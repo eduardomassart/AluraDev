@@ -73,3 +73,13 @@
     transition: 0.5s;
     background-color: var(--color-bg-button-unable-hover);
 }
+
+@media screen and (max-width: 768px) {
+    .secao__codigo {
+        width: 100%;
+    }
+
+    .codigo, .syntax-highlight {
+        width: 100%;
+    }
+}
