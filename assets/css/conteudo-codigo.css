@@ -83,3 +83,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .secao__codigo {
+        height: 492px;
+    }
+
+    .codigo {
+        height: 100%;
+    }
+}

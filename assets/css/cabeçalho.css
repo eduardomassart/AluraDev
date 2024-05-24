@@ -44,6 +44,7 @@
     gap: 8px;
     padding: 12px;
     border-radius: 8px;
+    margin-left: 8%;
 }
 
 .usuario:hover {
@@ -59,6 +60,38 @@
 
 .usuario__nome {
     color: var(--color-font-white);
+}
+
+.botao__pesquisa {
+    display: none;
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/search.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 14px;
+}
+
+.busca__mobile {
+    display: none;
+    position: fixed;
+    background-color: var(--color-bg-blue-dark);
+    padding: 10px 0;
+    bottom: 0;
+    left: 16px;
+}
+
+.input__busca-mobile {
+    width: 287px;
+}
+
+.botao__fechar {
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/fechar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 12px;
 }
 
 .menu__hamburguer {
@@ -82,5 +115,25 @@
 
     .menu__hamburguer {
         display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin-right: 28%;
+    }
+
+    .input__busca{
+        display: none;
+    }
+
+    .botao__pesquisa {
+        display: block;
+        margin-right: 8px;
+    }
+
+    .cabeçalho {
+        justify-content: space-between;
+        margin: 16px;
     }
 }

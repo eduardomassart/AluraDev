@@ -81,3 +81,13 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .menu__configuracao-personalizacao {
+        flex-direction: column;
+    }
+
+    .input__projeto-linguagem, .input__projeto-highlight-color {
+        width: 100%;
+    }
+}
