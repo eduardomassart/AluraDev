@@ -4,6 +4,10 @@
     --color-bg-blue-medium: rgba(80, 129, 251, 0.08);
     --color-bg-blue-light: rgba(80, 129, 251, 1);
     --color-bg-cyan: rgb(107, 209, 255);
+    --color-bg-lightgreen: rgba(154, 255, 107, 1);
+    --color-bg-prupleblue: rgba(107, 131, 255, 1);
+    --color-bg-orange: rgba(255, 196, 107, 1);
+    --color-bg-pink: rgba(255, 107, 205, 1);
 
     /* cores de inputs */
     --color-bg-input: rgba(255, 255, 255, 0.16);

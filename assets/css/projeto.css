@@ -1,0 +1,152 @@
+.conteudo__codigo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 84%;
+    gap: 24px;
+}
+
+.projeto {
+    width: 520px;
+    height: 464px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.16);
+}
+
+.p-1 > .secao__codigo {
+    background-color: var(--color-bg-lightgreen);
+}
+
+.p-2 > .secao__codigo {
+    background-color: var(--color-bg-prupleblue);
+}
+
+.p-3 > .secao__codigo {
+    background-color: var(--color-bg-orange);
+}
+
+.p-4 > .secao__codigo {
+    background-color: var(--color-bg-pink);
+}
+
+.secao__codigo {
+    height: 288px;
+    padding: 24px;
+    margin: 0;
+}
+
+.projeto__info {
+    height: 112px;
+    padding: 24px;
+}
+
+.projeto__titulo {
+    color: var(--color-font-white);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31.5px;
+    margin-bottom: 8px;
+}
+
+.projeto__descricao {
+    color: var(--color-font-less-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projeto__actions {
+    height: 64px;
+    padding: 0 24px 24px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto__actions-buttons {
+    display: flex;
+}
+
+.action-button {
+    display: flex;
+    border: none;
+    background: none;
+    width: 58px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 16px;
+}
+
+.action-button:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-white-button-hover);
+}
+
+.action-button:active {
+    transition: 0;
+    background-color: var(--color-bg-input);
+}
+
+.coment__img {
+    background-image: url(../img/coment.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+
+.like__img {
+    background-image: url(../img/like.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+
+.like-active {
+    background-image: url(../img/like-active.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+
+.contador {
+    color: var(--color-font-white);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.autor {
+    display: flex;
+    gap: 8px;
+    width: 105px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.autor:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-white-button-hover);
+}
+
+.autor__foto {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.autor__nome {
+    color: var(--color-font-white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1350px) {
+    .projeto {
+        width: 450px;
+    }
+}
