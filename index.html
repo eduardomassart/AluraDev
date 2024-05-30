@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraDev</title>
+    <link rel="stylesheet" href="./assets/css/monokai.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/css/cabeçalho.css">
     <link rel="stylesheet" href="./assets/css/menu-navegacao.css">
@@ -78,7 +79,7 @@
                         <div class="circulo circulo-verde"></div>
                     </div>
                     <div class="code-wrapper">
-                        <pre><code class="coding__area" contenteditable="true" aria-label="Editor de Código">function teste () {}</code></pre>
+                        <code class="coding__area" contenteditable="true" aria-label="Editor de Código">function teste () {}</code>
                     </div>
                 </div>
             </div>
@@ -93,15 +94,17 @@
             <section class="menu__configuracao-personalizacao">
                 <h2 class="menu__titulo">PERSONALIZAÇÃO</h2>
                 <select class="input input__projeto-linguagem">
-                    <option value="javascript">JavaScript</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
+                    <option class="option" value="javascript">JavaScript</option>
+                    <option class="option" value="html">HTML</option>
+                    <option class="option" value="css">CSS</option>
                 </select>
                 <input class="input__projeto-highlight-color" type="color" value="#6bd1ff">
             </section>
             <input class="menu__configuracao-submeter" type="submit" value="Salvar projeto">
         </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

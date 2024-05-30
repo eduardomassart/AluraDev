@@ -1,5 +1,6 @@
 .secao__codigo {
     width: 100%;
+    max-width: 688px;
     height: 366px;
     gap: 32px;
     border-radius: 8px;
@@ -45,14 +46,38 @@
     background-color: rgba(39, 201, 63, 1);
 }
 
-.code-wrapper pre {
-    text-align: start;
+.code-wrapper {
+    width: 100%;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.code-wrapper::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.code-wrapper::-webkit-scrollbar-track {
+    background: var(--color-bg-input);
+    border-radius: 8px;
+}
+
+.code-wrapper::-webkit-scrollbar-thumb {
+    background: var(--color-font-less-white);
+    border-radius: 8px;
+}
+
+.code-wrapper::-webkit-scrollbar-corner {
+    background: black;
 }
 
 .coding__area {
+    display: block;
+    width: 100%;
     font-family: var(--font-code);
     color: var(--color-font-white);
     font-size: 14px;
+    white-space: pre-wrap;
 }
 
 .coding__area:focus {
@@ -67,6 +92,7 @@
     font-size: 16px;
     background-color: var(--color-bg-blue-medium);
     color: var(--color-font-white);
+    cursor: pointer;
 }
 
 .syntax-highlight:hover {
