@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.option {
+    background-color: #2D415B;
+}
+
 .input__projeto-highlight-color {
     border-radius: 8px;
     padding: 2px;
