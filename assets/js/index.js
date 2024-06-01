@@ -4,7 +4,7 @@ const botao = document.querySelector(".syntax-highlight");
 
 function aplicaHighlight () {
     const codigo = areaDoCodigo.innerText;
-    areaDoCodigo.innerHTML = `<code class="coding__area linguagem-${linguagem.value}" contenteditable="true" aria-label="Editor de Código"></code>`
+    areaDoCodigo.innerHTML = `<code class="coding__area hljs language-${linguagem.value}" contenteditable="true" aria-label="Editor de Código"></code>`
     areaDoCodigo.querySelector("code").textContent = codigo;
     hljs.highlightElement(areaDoCodigo.querySelector("code"));
 }
