@@ -45,6 +45,7 @@
     padding: 12px;
     border-radius: 8px;
     margin-left: 8%;
+    cursor: pointer;
 }
 
 .usuario:hover {

@@ -1,6 +1,6 @@
 const linguagem = document.querySelector(".input__projeto-linguagem");
 const areaDoCodigo = document.querySelector(".code-wrapper");
-const botao = document.querySelector(".syntax-highlight");
+const botaoSyntax = document.querySelector(".syntax-highlight");
 
 function aplicaHighlight () {
     const codigo = areaDoCodigo.innerText;
@@ -9,6 +9,6 @@ function aplicaHighlight () {
     hljs.highlightElement(areaDoCodigo.querySelector("code"));
 }
 
-botao.addEventListener("click", () => {
+botaoSyntax.addEventListener("click", () => {
     aplicaHighlight();
 })
