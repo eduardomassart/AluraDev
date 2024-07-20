@@ -11,6 +11,7 @@
     height: min-content;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.16);
+    list-style: none;
 }
 
 .p-1>.secao__codigo {
