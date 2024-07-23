@@ -59,6 +59,7 @@ function criaProjeto(index, projeto) {
 
     const pAutorNome = document.createElement('p');
     pAutorNome.classList.add('autor__nome');
+    pAutorNome.textContent = "@Harry";
 
     // *************** CAMADA 5 *********************
 

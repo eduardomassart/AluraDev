@@ -37,7 +37,7 @@
 }
 
 .projeto__info {
-    height: 112px;
+    height: 136.5px;
     padding: 24px;
 }
 
@@ -54,6 +54,27 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    height: 49px;
+    overflow-y: auto;
+}
+
+.projeto__descricao::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.projeto__descricao::-webkit-scrollbar-track {
+    background: var(--color-bg-input);
+    border-radius: 8px;
+}
+
+.projeto__descricao::-webkit-scrollbar-thumb {
+    background: var(--color-font-less-white);
+    border-radius: 8px;
+}
+
+.projeto__descricao::-webkit-scrollbar-corner {
+    background: black;
 }
 
 .projeto__actions {
