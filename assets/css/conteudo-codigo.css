@@ -80,10 +80,15 @@
     color: var(--color-font-white);
     font-size: 14px;
     white-space: pre-wrap;
+    background-image: url(../img/code-file-icon.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .coding__area:focus {
     outline: 0;
+    background-image: none;
 }
 
 .syntax-highlight {
@@ -102,14 +107,28 @@
     background-color: var(--color-bg-button-unable-hover);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1250px) {
+    .conteudo__codigo {
+        width: 47%;
+        margin: 0 20px;
+    }
+
     .syntax-highlight {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .conteudo__codigo {
+        width: 100%;
+        margin: 0;
+    }
+
     .secao__codigo {
         height: 492px;
+    }
+
+    .syntax-highlight {
+        width: 100%;
     }
 }
