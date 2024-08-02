@@ -80,13 +80,17 @@
     color: var(--color-font-white);
     font-size: 14px;
     white-space: pre-wrap;
+}
+
+.edit-page {
     background-image: url(../img/code-file-icon.png);
     background-size: 100px;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 0.4;
 }
 
-.coding__area:focus {
+.edit-page:focus {
     outline: 0;
     background-image: none;
 }
