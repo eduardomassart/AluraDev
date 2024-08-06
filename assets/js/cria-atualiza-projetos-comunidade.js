@@ -52,6 +52,9 @@ function criaProjeto(index, projeto) {
     const btnLike = document.createElement('button');
     btnLike.classList.add('action-button', 'button-like');
 
+    const btnExport = document.createElement('button');
+    btnExport.classList.add('action-button', 'button-export');
+
     const imgAutor = document.createElement('img');
     imgAutor.classList.add('autor__foto');
     imgAutor.setAttribute('alt', 'foto do autor logado');
@@ -96,7 +99,7 @@ function criaProjeto(index, projeto) {
 
     // CAM 4 -> 3 
     divCodigo.append(divCirculos, divCodeWrapper);
-    divBtnProjetoActions.append(btnComent, btnLike);
+    divBtnProjetoActions.append(btnComent, btnLike, btnExport);
     divAutor.append(imgAutor, pAutorNome);
 
     // CAM 3 -> 2 

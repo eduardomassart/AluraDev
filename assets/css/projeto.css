@@ -110,6 +110,7 @@
     border-radius: 16px;
     animation-name: appear;
     animation-duration: .5s;
+    cursor: pointer;
 }
 
 .action-button:hover {
@@ -150,6 +151,14 @@
     color: var(--color-font-white);
     font-size: 16px;
     line-height: 24px;
+}
+
+.button-export {
+    max-height: 40px;
+    background-image: url(../img/copy-icon.svg);
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .autor {

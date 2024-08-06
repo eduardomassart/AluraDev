@@ -14,7 +14,7 @@
 .input__projeto-nome,
 .input__projeto-linguagem,
 .input__projeto-highlight-color,
-.menu__configuracao-submeter {
+.menu__configuracao-conclusao {
     width: 272px;
     height: 56px;
 }
@@ -42,6 +42,12 @@
     cursor: pointer;
 }
 
+.menu__configuracao-conclusao {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
 .menu__configuracao-submeter {
     border: none;
     border-radius: 8px;
@@ -52,6 +58,7 @@
     color: var(--color-bg-blue-dark);
     font-weight: 400;
     cursor: pointer;
+    flex-grow: 2;
 }
 
 .menu__configuracao-submeter:hover {
@@ -59,11 +66,27 @@
     background-color: var(--color-bg-button-filled-hover);
 }
 
+.menu__configuracao-export {
+    width: 55px;
+    border: 2px var(--color-bg-button-unable-hover) solid;
+    border-radius: 16px;
+    background-color: var(--color-bg-blue-medium);
+    background-image: url(../img/copy-icon.svg);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.menu__configuracao-export:hover {
+    transition: 0.5s;
+    background-color: var(--color-bg-button-unable-hover);
+
+}
+
 @media screen and (max-width: 768px) {
 
     .input__projeto-nome,
     .input__projeto-descricao,
-    .menu__configuracao-submeter {
+    .menu__configuracao-conclusao {
         width: 100%;
     }
 
