@@ -10,6 +10,7 @@
     border-top-left-radius: 8px;
     animation-name: slide;
     animation-duration: .5s;
+    z-index: 2;
 }
 
 @keyframes slide {
